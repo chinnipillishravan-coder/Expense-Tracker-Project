@@ -11,11 +11,12 @@ A responsive React expense tracker with separate sign-in, account creation, and 
 
 Run `npm run build` to create a production build in `dist/`.
 
-## Live website
+## GitHub Pages deployment
 
-The site is deployed to GitHub Pages at
+Enable GitHub Pages once in the repository settings by selecting **Settings →
+Pages → Build and deployment → Source → GitHub Actions**. The workflow then
+deploys every push to `main` at
 https://chinnipillishravan-coder.github.io/Expense-Tracker-Project/.
-Every push to `main` builds and deploys the latest version.
 
 ## Included
 
