@@ -11,6 +11,12 @@ A responsive React expense tracker with separate sign-in, account creation, and 
 
 Run `npm run build` to create a production build in `dist/`.
 
+## Live website
+
+The site is deployed to GitHub Pages at
+https://chinnipillishravan-coder.github.io/Expense-Tracker-Project/.
+Every push to `main` builds and deploys the latest version.
+
 ## Included
 
 - Sign up and sign in, with locally stored PBKDF2 password hashes.

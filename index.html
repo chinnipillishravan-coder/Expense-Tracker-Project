@@ -8,6 +8,13 @@
       name="description"
       content="A thoughtful, private place to track your spending and make your money go further."
     />
+    <script>
+      const spaPath = sessionStorage.getItem("spa-path");
+      if (spaPath) {
+        sessionStorage.removeItem("spa-path");
+        history.replaceState(null, "", spaPath);
+      }
+    </script>
     <title>Pennywise — Spend with intention</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
